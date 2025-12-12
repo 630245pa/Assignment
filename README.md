@@ -17,7 +17,6 @@ data coming from several Web shops is addressed using LSH.
 - **LSH Banding**: Divides signature matrix into bands with optimized threshold to find candidate pairs
 - **Model Word Extraction**: 
   - Full method: Extracts model words from title, brand names, and "1080"
-  - Title-only method: Extracts model words only from titles (for comparison)
 - **TMWM Similarity**: Title Model Words Method similarity metric for clustering
 - **Agglomerative Clustering**: Hierarchical clustering with complete linkage and optimized distance threshold
 - **Bootstrap Evaluation**: 5-fold bootstrap resampling for robust performance estimation
@@ -131,5 +130,4 @@ plot_results(bootstrap_results)
 - Uses TMWM (Title Model Words Method) similarity
 - Complete linkage (maximum distance between clusters)
 - Distance threshold optimized on training set
-- Prevents overfitting with F1 range constraints (0.1-0.2)
 
