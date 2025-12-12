@@ -42,9 +42,9 @@ data coming from several Web shops is addressed using LSH.
 
 3. **Key Notebooks**:
    - `experiment_graph.ipynb`: Main experiment with visualization
-   - `experiment_diff_extraction.ipynb`: Comparison of different model word extraction methods
-   - `Bootstrap-experiment-Copy1.ipynb`: Complete bootstrap evaluation pipeline
-  
+   - `experiment_diff_extraction.ipynb`: Main experiment but without setting the seed 
+   - `for_comparision_graph.ipynb`: Comparision of implementation of clustering with and without LSH 
+
 ### Requirements
 
 ```bash
@@ -107,13 +107,8 @@ plot_results(bootstrap_results)
 ```
 
 
-### Key Files
 
-- **`experiment_graph.ipynb`**: Main notebook with complete pipeline and visualizations
-- **`for_comparision_graph.ipynb`**: notebook with complete pipeline and visualizations but without setting seed
-- **`Bootstrap-experiment-Copy1.ipynb`**: Full bootstrap evaluation with LSH and clustering
-
-## 🔬 Methods
+## Methods
 
 ### 1. Locality Sensitive Hashing (LSH)
 
