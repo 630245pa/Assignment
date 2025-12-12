@@ -1,7 +1,7 @@
 # Assignment
 ### Key Objectives
 
-- **Efficiency**: Reduce computational complexity from O(n²) to O(n) using LSH
+- **Efficiency**: Reduce computational complexity using LSH
 - **Accuracy**: Achieve high Pair Quality (PQ) and Pair Completeness (PC) scores
 - **Robustness**: Use bootstrap evaluation for reliable performance estimation
 - **Comparison**: Evaluate multiple methods (LSH+Clustering, LSH+Logistic Regression, Clustering without LSH)
